@@ -1,0 +1,50 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: crimson;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-grid {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 45px;
+    width: 45px;
+}
+
+.restart {
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: green;
+    font-size: 20px;
+    color: black;
+}
